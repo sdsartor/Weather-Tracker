@@ -1,0 +1,43 @@
+header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    text-align: center;
+    font-weight: 800;
+    font-style: oblique; 
+}
+
+body {
+background-image: url(https://free4kwallpapers.com/uploads/wallpaper/weather-live-wallpaper-icon-1440x900-wallpaper.jpg);
+background-blend-mode: hard-light;
+background-color: rgb(14, 98, 193);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+image-rendering: crisp-edges;
+/* I thought that the css could use a colorful background that also has some brightness added to it. */
+
+}
+
+.input {
+    color: black;
+    background-color: skyblue;
+    display: flex;
+    margin-top: 200px;
+    margin-left: 100px;
+    border-bottom: 3px solid rgb(72, 142, 223);
+    border-radius: 10px 0px 10px 0px;
+}
+
+button {
+    
+    display: flex;
+    margin-left: 100px;
+    margin-top: 5px;
+  
+}
+
+button:hover {
+    cursor:pointer;
+    display: flex;
+}
